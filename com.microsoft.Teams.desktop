@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Microsoft Teams - Preview
+Comment=Microsoft Teams for Linux is your chat-centered workspace in Office 365.
+Exec=teams %U
+Icon=com.microsoft.Teams
+Terminal=false
+StartupNotify=true
+StartupWMClass=Microsoft Teams - Preview
+Categories=AudioVideo;Network;
+MimeType=x-scheme-handler/teams;
+X-KDE-Protocols=teams
