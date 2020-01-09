@@ -10,6 +10,6 @@ Icon=com.microsoft.Teams
 Terminal=false
 StartupNotify=true
 StartupWMClass=Microsoft Teams - Preview
-Categories=AudioVideo;Network;Chat;Office;
+Categories=AudioVideo;Network;
 MimeType=x-scheme-handler/teams;
 X-KDE-Protocols=teams
