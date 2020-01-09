@@ -4,46 +4,34 @@
     <metadata_license>CC0-1.0</metadata_license>
     <project_license>LicenseRef-proprietary</project_license>
     <name>Microsoft Teams</name>
-    <summary>Microsoft Teams for Linux is your chat-centered workspace in Office 365.</summary>
-
+    <summary>Microsoft Teams is your hub for teamwork in Office 365</summary>
+    <summary xml:lang="pt_BR">O Microsoft Teams é o hub de trabalho em equipe do Office 365</summary>
+    <summary xml:lang="es">Microsoft Teams es el concentrador de trabajo en equipo de Office 365</summary>
     <description>
-        <p>NOTE: This wrapper is not verified by, affiliated with, or
-            supported by Microsoft Corporation.</p>
-
         <p>
-            Microsoft Teams is your hub for teamwork in Office 365.
-            All your team conversations, files, meetings, and apps live together
-            in a single shared workspace, and you can take it with you on your
-            favorite mobile device. Whether you’re sprinting towards a deadline
-            or sharing your next big idea, Teams can help you achieve more.
+            All your team conversations, files, meetings, and apps live together in a single shared workspace. This app requires a paid Office 365 commercial subscription, or a free or trial subscription of Microsoft Teams. If you’re not sure about your company’s subscription or the services you have access to, visit Office.com/Teams to learn more or contact your IT department.
         </p>
         
-        <p>YOUR HUB FOR TEAMWORK</p>
-        <ul>
-            <li>Easily manage your team’s projects with file editing and sharing on the go</li>
-            <li>Connect face-to-face with HD audio and video, and join meetings from almost anywhere</li>
-            <li>Chat privately or in groups, and communicate with the entire team in dedicated channels</li>
-            <li>Mention individual team members, or the whole team at once, to get your colleagues’ attention</li>
-            <li>Focus on what matters most by saving important conversations and customizing your notifications</li>
-            <li>Search your chats and team conversations to quickly find what you need</li>
-            <li>Get the enterprise-level security and compliance you expect from Office 365</li>
-        </ul>
-
         <p>
-            This app requires a paid Office 365 commercial subscription,
-            or a free or trial subscription of Microsoft Teams.
-            If you’re not sure about your company’s subscription or the services
-            you have access to, visit Office.com/Teams to learn more or contact your IT department.
-        </p>
-
-        <p>
-            By downloading this app, you agree to the license and privacy terms (see aka.ms/privacy).
-            To learn more, please visit aka.ms/microsoftteams.
+            NOTE: This wrapper is not verified by, affiliated with, or supported by Microsoft Corporation.
         </p>
     </description>
-
+    <description xml:lang="pt_BR">
+        <p>
+            O Teams reúne tudo em um espaço de trabalho compartilhado com o qual você pode trabalhar em praticamente qualquer lugar, facilitando a conversa com a equipe, a colaboração em arquivos e o trabalho com os aplicativos favoritos. O Teams reúne tudo em um espaço de trabalho compartilhado com o qual você pode trabalhar em praticamente qualquer lugar, facilitando a conversa com a equipe, a colaboração em arquivos e o trabalho com os aplicativos favoritos.
+        </p>
+        <p>
+            NOTA: Este aplicativo não foi empacotado pelo Microsoft Corporation
+        </p>
+    </description>
+    <description xml:lang="es">
+        <p>
+            Teams lo reúne todo en un área de trabajo compartida, lo que te permite trabajar desde cualquier lugar y facilita que tu equipo chatee, colabore en archivos y trabaje con sus aplicaciones favoritas. Esta aplicación requiere una suscripción comercial de Office 365 de pago o una suscripción gratuita o de prueba de Microsoft Teams.
+        </p>
+        <p>NOTA: Esta aplicación no ha sido empaquetado por Microsoft Corporation
+        </p>
+    </description>
     <launchable type="desktop-id">com.microsoft.Teams.desktop</launchable>
-
     <screenshots>
         <screenshot type="default">
             <caption>Microsoft Teams</caption>
