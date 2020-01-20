@@ -26,31 +26,7 @@
     "--env=TMPDIR=/var/tmp"
   ],
   "modules": [
-    {
-      "name": "libsecret",
-      "buildsystem": "meson",
-      "config-opts": [
-        "-Dmanpage=false",
-        "-Dvapi=false",
-        "-Dgtk_doc=false"
-      ],
-      "cleanup": [
-        "/bin",
-        "/include",
-        "/lib/pkgconfig",
-        "/share/gir-1.0",
-        "/share/man",
-        "*.la"
-      ],
-      "sources": [
-        {
-          "commit": "f576dfbe50f9aed22802ad0db0356d081f467d7a",
-          "tag": "0.19.1",
-          "type": "git",
-          "url": "https://gitlab.gnome.org/GNOME/libsecret.git"
-        }
-      ]
-    },
+    "shared-modules/libsecret/libsecret.json",
     {
       "name": "teams",
       "buildsystem": "simple",
