@@ -23,8 +23,7 @@
         "--filesystem=xdg-download",
         "--talk-name=org.freedesktop.Notifications",
         "--talk-name=org.freedesktop.secrets",
-        "--talk-name=org.kde.StatusNotifierWatcher",
-        "--env=TMPDIR=/var/tmp"
+        "--talk-name=org.kde.StatusNotifierWatcher"
     ],
     "modules": [
         "shared-modules/libsecret/libsecret.json",
@@ -36,7 +35,7 @@
                 "install -Dm0755 $(which ar) ${FLATPAK_DEST}/bin/",
                 "install -Dm0755 $(which desktop-file-edit) ${FLATPAK_DEST}/bin/",
                 "install -Dm0755 apply_extra.sh ${FLATPAK_DEST}/bin/apply_extra",
-                "ln -s ../extra/bin/teams ${FLATPAK_DEST}/bin/teams",
+                "install -Dm0755 teams.sh ${FLATPAK_DEST}/bin/teams",
                 "install -Dm0644 64.png ${FLATPAK_DEST}/share/icons/hicolor/64x64/apps/${FLATPAK_ID}.png",
                 "install -Dm0644 128.png ${FLATPAK_DEST}/share/icons/hicolor/128x128/apps/${FLATPAK_ID}.png",
                 "install -Dm0644 256.png ${FLATPAK_DEST}/share/icons/hicolor/256x256/apps/${FLATPAK_ID}.png",
@@ -48,6 +47,10 @@
                 {
                     "type": "file",
                     "path": "apply_extra.sh"
+                },
+                {
+                    "type": "file",
+                    "path": "teams.sh"
                 },
                 {
                     "type": "file",
