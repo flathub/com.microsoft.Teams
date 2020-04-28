@@ -15,6 +15,7 @@
         "--share=network",
         "--socket=x11",
         "--socket=pulseaudio",
+        "--socket=pcsc",
         "--device=all",
         "--filesystem=xdg-documents:ro",
         "--filesystem=xdg-pictures:ro",
@@ -28,6 +29,28 @@
     ],
     "modules": [
         "shared-modules/libsecret/libsecret.json",
+        {
+            "name": "pcsc-lite",
+            "config-opts": [
+                "--disable-libudev",
+                "--disable-libsystemd",
+                "--without-systemdsystemunitdir",
+                "--disable-serial",
+                "--disable-usb",
+                "--disable-documentation"
+            ],
+            "post-install": [
+                "rm /app/sbin/pcscd",
+                "rmdir /app/sbin || true"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/LudovicRousseau/PCSC/archive/pcsc-1.8.26.tar.gz",
+                    "sha256": "87da93642ba45fdbec07462c9ffabecbdda02407719fa21402f20fa35910425a"
+                }
+            ]
+        },
         {
             "name": "teams",
             "buildsystem": "simple",
