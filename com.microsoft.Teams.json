@@ -1,10 +1,10 @@
 {
     "id": "com.microsoft.Teams",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "19.08",
+    "runtime-version": "20.08",
     "sdk": "org.freedesktop.Sdk",
     "base": "org.electronjs.Electron2.BaseApp",
-    "base-version": "19.08",
+    "base-version": "20.08",
     "command": "teams",
     "tags": [
         "proprietary"
