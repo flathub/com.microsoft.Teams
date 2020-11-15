@@ -70,6 +70,17 @@
         },
         "shared-modules/libsecret/libsecret.json",
         {
+            "name": "zypak",
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://github.com/refi64/zypak",
+                    "tag": "v2020.10beta.4",
+                    "commit": "4d86fa03d4dbd5913e9c71902df4586bbf72e098"
+                }
+            ]
+        },
+        {
             "name": "pcsc-lite",
             "config-opts": [
                 "--disable-libudev",
