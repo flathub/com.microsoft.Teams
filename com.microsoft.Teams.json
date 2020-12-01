@@ -129,9 +129,9 @@
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://packages.microsoft.com/repos/ms-teams/pool/main/t/teams/teams_1.3.00.25560_amd64.deb",
-                    "sha256": "acfe094beacbacfc29641c1c9a85ec4bb61157d371fad67e03108b6d706aec4e",
-                    "size": 71805276,
+                    "url": "https://packages.microsoft.com/repos/ms-teams/pool/main/t/teams/teams_1.3.00.30857_amd64.deb",
+                    "sha256": "5058b1fe8bf9fffc57d94148a7ec55119c5cd9b21aa267cb13518bec0244241b",
+                    "size": 76334658,
                     "x-checker-data": {
                         "type": "debian-repo",
                         "package-name": "teams",
@@ -146,9 +146,9 @@
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://packages.microsoft.com/repos/ms-teams/pool/main/t/teams/teams_1.3.00.25560_amd64.deb",
-                    "sha256": "acfe094beacbacfc29641c1c9a85ec4bb61157d371fad67e03108b6d706aec4e",
-                    "size": 71805276,
+                    "url": "https://packages.microsoft.com/repos/ms-teams/pool/main/t/teams/teams_1.3.00.30857_amd64.deb",
+                    "sha256": "5058b1fe8bf9fffc57d94148a7ec55119c5cd9b21aa267cb13518bec0244241b",
+                    "size": 76334658,
                     "x-checker-data": {
                         "type": "debian-repo",
                         "package-name": "teams",
