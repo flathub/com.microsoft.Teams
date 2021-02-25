@@ -2,7 +2,7 @@
 
 set -e
 
-ar p teams.deb data.tar.xz | tar -xJf -
+ar p teams.deb data.tar.xz | tar -vxJ --exclude=rect-overlay
 
 mv usr/share/teams .
 
