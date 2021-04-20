@@ -2,8 +2,11 @@
 
 set -e
 
-ar p teams.deb data.tar.xz | tar -vxJ --exclude=rect-overlay
+bsdtar -Oxf teams.deb 'data.tar.*' |
+  bsdtar -xf - \
+    --strip-components=3 \
+    --exclude='./usr/bin/' \
+    --exclude='./usr/share/applications/' \
+    --exclude='./usr/share/pixmaps/'
 
-mv usr/share/teams .
-
-rm -rf teams.deb usr
+rm -rf teams.deb

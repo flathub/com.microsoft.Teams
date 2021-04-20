@@ -114,14 +114,6 @@
             ]
         },
         {
-            "name": "ar",
-            "buildsystem": "simple",
-            "build-commands": [
-                "install -Dm0755 /usr/lib/$(gcc -print-multiarch)/libbfd-*.so -t ${FLATPAK_DEST}/lib/",
-                "install -Dm0755 $(which ar) ${FLATPAK_DEST}/bin/"
-            ]
-        },
-        {
             "name": "teams",
             "buildsystem": "simple",
             "build-commands": [
