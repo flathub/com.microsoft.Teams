@@ -7,6 +7,7 @@ bsdtar -Oxf teams.deb 'data.tar.*' |
     --strip-components=3 \
     --exclude='./usr/bin/' \
     --exclude='./usr/share/applications/' \
-    --exclude='./usr/share/pixmaps/'
+    --exclude='./usr/share/pixmaps/' \
+    --exclude='*/rect-overlay'
 
 rm -rf teams.deb
