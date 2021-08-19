@@ -24,4 +24,4 @@ timezone_workaround()
 
 timezone_workaround
 
-exec env TMPDIR="$XDG_CACHE_HOME" zypak-wrapper /app/extra/teams/teams "$@"
+exec env TMPDIR="$XDG_CACHE_HOME" zypak-wrapper /app/extra/teams/teams --disable-namespace-sandbox --disable-setuid-sandbox "$@"
