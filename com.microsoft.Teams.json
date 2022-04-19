@@ -68,7 +68,7 @@
                 }
             ]
         },
-            "shared-modules/libsecret/libsecret.json",
+        "shared-modules/libsecret/libsecret.json",
         {
             "name": "pcsc-lite",
             "config-opts": [
@@ -121,8 +121,8 @@
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://packages.microsoft.com/repos/ms-teams/pool/main/t/teams/teams_1.4.00.26453_amd64.deb",
-                    "sha256": "ee15b57793aa6b79ccda744d5232da670335abd931bae2a020f5043a129ab859",
+                    "url": "https://packages.microsoft.com/repos/ms-teams/pool/main/t/teams/teams_1.5.00.10453_amd64.deb",
+                    "sha256": "7cb570d9ac5231eb6e6a84738e0fb1e0345863c58fe5341b2fb2db7c5e8b15f0",
                     "x-checker-data": {
                         "type": "debian-repo",
                         "package-name": "teams",
@@ -137,9 +137,9 @@
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://packages.microsoft.com/repos/ms-teams/pool/main/t/teams/teams_1.4.00.26453_amd64.deb",
-                    "sha256": "ee15b57793aa6b79ccda744d5232da670335abd931bae2a020f5043a129ab859",
-                    "size": 84503304,
+                    "url": "https://packages.microsoft.com/repos/ms-teams/pool/main/t/teams/teams_1.5.00.10453_amd64.deb",
+                    "sha256": "7cb570d9ac5231eb6e6a84738e0fb1e0345863c58fe5341b2fb2db7c5e8b15f0",
+                    "size": 84485626,
                     "x-checker-data": {
                         "type": "debian-repo",
                         "package-name": "teams",
