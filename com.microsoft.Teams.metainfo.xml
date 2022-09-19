@@ -55,6 +55,7 @@
     <url type="homepage">https://teams.microsoft.com/downloads</url>
 
     <releases>
+        <release version="1.5.00.23861" date="2022-09-19"/>
         <release version="1.5.00.10453" date="2022-04-19"/>
         <release version="1.4.00.26453" date="2021-10-07"/>
         <release version="1.4.00.13653" date="2021-06-08"/>
