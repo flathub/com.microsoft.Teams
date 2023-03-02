@@ -1,4 +1,4 @@
 {
-  "publish-delay-hours": 0,
-  "only-arches": ["x86_64"]
+  "only-arches": ["x86_64"],
+  "end-of-life": "The Linux version of Microsoft Teams is no longer supported. It is recommnded to switch to PWA version, using Chrome, Chromium or Edge. See https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-progressive-web-app-now-available-on-linux/ba-p/3669846 for details."
 }
