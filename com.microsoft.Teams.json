@@ -121,15 +121,8 @@
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://packages.microsoft.com/repos/ms-teams/pool/main/t/teams/teams_1.5.00.23861_amd64.deb",
-                    "sha256": "87462709e257fff9784de809559b5abd5dc7af18d8505d856b92a66989995bc1",
-                    "x-checker-data": {
-                        "type": "debian-repo",
-                        "package-name": "teams",
-                        "root": "https://packages.microsoft.com/repos/ms-teams/",
-                        "dist": "stable",
-                        "component": "main"
-                    }
+                    "url": "https://web.archive.org/web/20221130115842if_/https://packages.microsoft.com/repos/ms-teams/pool/main/t/teams/teams_1.5.00.23861_amd64.deb",
+                    "sha256": "87462709e257fff9784de809559b5abd5dc7af18d8505d856b92a66989995bc1"
                 },
                 {
                     "type": "extra-data",
@@ -137,16 +130,9 @@
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://packages.microsoft.com/repos/ms-teams/pool/main/t/teams/teams_1.5.00.23861_amd64.deb",
+                    "url": "https://web.archive.org/web/20221130115842if_/https://packages.microsoft.com/repos/ms-teams/pool/main/t/teams/teams_1.5.00.23861_amd64.deb",
                     "sha256": "87462709e257fff9784de809559b5abd5dc7af18d8505d856b92a66989995bc1",
-                    "size": 85466286,
-                    "x-checker-data": {
-                        "type": "debian-repo",
-                        "package-name": "teams",
-                        "root": "https://packages.microsoft.com/repos/ms-teams/",
-                        "dist": "stable",
-                        "component": "main"
-                    }
+                    "size": 85466286
                 }
             ]
         }
