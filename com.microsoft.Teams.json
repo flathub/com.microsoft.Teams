@@ -22,6 +22,7 @@
         "--talk-name=org.freedesktop.secrets",
         "--talk-name=org.gnome.SessionManager",
         "--talk-name=org.kde.StatusNotifierWatcher",
+        "--talk-name=org.freedesktop.ScreenSaver",
         "--env=TZ="
     ],
     "modules": [
@@ -63,7 +64,7 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://imagemagick.org/download/releases/ImageMagick-7.0.10-7.tar.xz",
+                    "url": "https://imagemagick.org/archive/releases/ImageMagick-7.0.10-7.tar.xz",
                     "sha256": "7a0365e20eeef2129cb8ffee1acf1d21cdbc2ea8b57ce2941c6ca0e935d4f843"
                 }
             ]
