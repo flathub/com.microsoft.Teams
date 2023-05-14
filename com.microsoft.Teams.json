@@ -17,6 +17,8 @@
         "--socket=pulseaudio",
         "--socket=pcsc",
         "--device=all",
+        "--filesystem=xdg-pictures:ro",
+        "--filesystem=xdg-documents:ro",
         "--filesystem=xdg-download",
         "--talk-name=org.freedesktop.Notifications",
         "--talk-name=org.freedesktop.secrets",
